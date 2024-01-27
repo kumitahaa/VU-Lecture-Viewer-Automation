@@ -87,23 +87,7 @@ def navigate_lecture():
             except Exception as e:
                 pass
 
-
-            # try:
-            #     next_btn.click()
-            #     print("Clicked Next Instead")
-            # except NoSuchElementException:
-            #     pass
             
-
-            # try:
-            #    #if click is possible
-            #    next_btn.click()
-            # except NoSuchElementException:
-            #     # Button is Unavailable
-            #     print(f"Can't Click Right Now, Wait...")
-    
-
-
 def main():
     config = load_config()
     student_id = config.get('student_id', None)
