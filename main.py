@@ -79,8 +79,8 @@ def navigate_lecture():
             pass
 
 
-def main():
-    # ------------- Main function -------------
+def driver():
+    # ------------- Driver function -------------
     config = load_config()
     student_id = config.get('student_id', None)
     password = config.get('password', None)
@@ -99,4 +99,4 @@ def main():
         
 
 
-main()
+driver()
